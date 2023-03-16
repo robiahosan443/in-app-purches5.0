@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Alphabet Lore Soundboard</string>
+    <string name="banner_ad_downloads">+</string>
+    <string name="banner_ad_title">Free Banner Ad</string>
+    <string name="banner_install">Install</string>
+    <string name="close">Close</string>
+    <string name="todo">TODO</string>
+    <string name="free">Free</string>
+    <string name="play_now_for_free">Play Now for free</string>
+    <string name="rate_exit">Later</string>
+    <string name="rate_text">Please make sure to leave a nice review if you enjoyed this Application, Rating takes less than a minute.</string>
+    <string name="rate_title">Rate us?</string>
+    <string name="rate_yes">Yes ! Rate</string>
+
+    <string name="menu_title_share">Share app</string>
+    <string name="menu_title_sound">Sounds</string>
+    <string name="share_text">Get the</string>
+    <string name="share_via">Share via...</string>
+    <string name="playstore_link">-https://play.google.com/store/apps/-</string>
+    <string name="package_name">com.alphabetlore3d.simsoundboard</string>
+
+    <!--Ad-->
+
+    <string name="roboto_cb">fonts/Roboto-BoldCondensed.ttf</string>
+    <string name="roboto_r">fonts/Roboto-Regular.ttf</string>
+
+    <string name="version">1.1.1</string>
+    <string name="app_description">Powerful yet lightweight material designed soundboard. Powered
+        with a tiny particle system that gives your taps some swag.</string>
+    <string name="copy_right">Copyrights © %1$d</string>
+
+    <string name="author">xtonousou</string>
+    <string name="mail">xtonousou@gmail.com</string>
+    <string name="website">http://xtonousou.github.io/</string>
+
+    <string name="search">Search</string>
+
+    <string name="categories">Categories</string>
+    <string name="all">All</string>
+    <string name="funny">Funny</string>
+    <string name="games">Games</string>
+    <string name="movies">Movies</string>
+    <string name="music">Music</string>
+
+    <string name="options">Options</string>
+    <string name="particles">Particles</string>
+    <string name="color">Color Picker</string>
+    <string name="about">About</string>
+
+    <string name="header">Select action</string>
+    <string name="ringtone">Set as ringtone</string>
+    <string name="notification">Set as notification</string>
+    <string name="alarm">Set as alarm</string>
+
+    <string name="palette">Material Palette</string>
+
+    <string name="battery_saver_on">Particles are currently disabled due to Battery Saver</string>
+    <string name="particles_disabled">Particles Disabled</string>
+
+    <string name="allow_access">Allow access</string>
+    <string name="modify_settings">To set sounds SoundBoardX needs permission to modify system settings.</string>
+    <string name="settings">SETTINGS</string>
+    <string name="not_now">NOT NOW</string>
+    <string name="permission_needed">Permission needed</string>
+    <string name="permission_granted">Permission granted</string>
+
+    <string name="storage_unavailable">Error: Storage is not available right now!</string>
+    <string name="storage_ro">Error: Storage is read-only!</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="alarms">Alarms</string>
+    <string name="ringtones">Ringtones</string>
+    <string name="audio">audio/*</string>
+
+    <string name="about_version">%1$s %2$s v.%3$s</string>
+    <string name="about_version_alt">The Cartwheel Galaxy (also known as ESO 350–40) is a lenticular galaxy and ring galaxy about 500 million light-years away in the constellation Sculptor.</string>
+    <string name="connect">Connect with us</string>
+    <string name="license">GPLv3+</string>
+    <string name="remove_ads">Remove Ads</string>
+    <!--Tab names-->
+
+    <!--Share app-->
+
+    <!--Sidebar titles-->
+
+    <!--Long click at sound-->
+
+    <!--Permission-->
+
+    <!--This is where the sounds are saved if you share or save one-->
+
+
+</resources>

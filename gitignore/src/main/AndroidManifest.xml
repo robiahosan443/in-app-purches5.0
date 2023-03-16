@@ -1,0 +1,18 @@
+<manifest
+    package="me.araib.module.ad"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+    <application
+        >
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+        <meta-data android:name="applovin.sdk.key"
+            android:value="XRhMN-sG2I0EtPtMCy6Lrw2mm0Nuz-MsWdZsoE5mQ5dAGSN5TAWr1RFFAqbBKZdX3NKMJ5qim68BflQfyZy9Qd"/>
+    </application>
+
+</manifest>

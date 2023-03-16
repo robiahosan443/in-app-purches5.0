@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_weight="0.4">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginBottom="5sp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/maxresdefault"
+                tools:ignore="Suspicious0dp" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+
+
+
+
+                <ImageView
+                    android:id="@+id/playbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="5sp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/start"
+                    tools:ignore="Suspicious0dp" />
+                <ImageView
+                    android:id="@+id/moreapps"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/moreapps"
+                    tools:ignore="Suspicious0dp" />
+                <ImageView
+                    android:id="@+id/rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/rateus"
+                    tools:ignore="Suspicious0dp" />
+                <ImageView
+                    android:id="@+id/share"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/share"
+                    tools:ignore="Suspicious0dp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:gravity="center">
+
+            </LinearLayout>
+            <com.alphabetlore3d.simsoundboard.p.BannerPromote
+                android:id="@+id/banner_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:banner_bodyColor="#FFFFFF"
+                app:banner_contentColor="#E41000"
+                android:textColor="#000000"
+                app:banner_installTitle="Install"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alphabetlore3d.simsoundboard">
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.alphabetlore3d.simsoundboard.j"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="30">
+        <activity
+            android:name="com.alphabetlore3d.simsoundboard.a.s"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".billing.RemoveAdsActivity"
+            android:exported="false"
+            />
+
+
+        <activity
+            android:name="com.alphabetlore3d.simsoundboard.b.n"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name="com.alphabetlore3d.simsoundboard.b.mm"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.alphabetlore3d.simsoundboard.d.SelectDrawingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.alphabetlore3d.simsoundboard.d.SketchActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.alphabetlore3d.simsoundboard.b.mrfragm"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name="com.alphabetlore3d.simsoundboard.d.MusicService"
+            android:enabled="true" />
+
+
+        <activity
+            android:name="com.alphabetlore3d.simsoundboard.d.AppBaseActivity"
+         />
+
+
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.alphabetlore3d.simsoundboard"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+
+
+
+
+        <activity
+            android:name="com.alphabetlore3d.simsoundboard.w.w"
+            android:screenOrientation="portrait"/>
+
+
+
+    </application>
+
+</manifest>

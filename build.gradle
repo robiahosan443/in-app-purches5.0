@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+buildscript {
+    ext.kotlin_version = '1.7.0-Beta'
+    repositories {
+        mavenCentral()
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+
+        maven {
+            url 'https://raw.githubusercontent.com/martinloren/AabResGuard/mvn-repo'
+        }
+
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.applovin.quality:AppLovinQualityServiceGradlePlugin:+"
+        classpath "com.bytedance.android:aabresguard-plugin:0.1.10"
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.10, 0.99.99]'
+    }
+}
+plugins {
+    id 'com.android.application' version '7.2.0' apply false
+    id 'com.android.library' version '7.2.0' apply false
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

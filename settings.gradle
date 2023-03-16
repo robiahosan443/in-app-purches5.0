@@ -1,0 +1,36 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+        mavenCentral()
+        maven {
+            url 'https://android-sdk.is.com/'
+        }
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://artifacts.applovin.com/android' }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            url 'https://android-sdk.is.com/'
+        }
+        flatDir {
+            dirs 'libs'
+        }
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://artifacts.applovin.com/android' }
+    }
+}
+rootProject.name = "TestAd"
+include ':app'
+include ':gitignore'
+include ':unity-ads'
